@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Kiroy-kDZ",
+    Text = "Kiroy-KDZ",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "TBoy Roblox Hub",
+    Title = "Kiroy-KDZ",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
