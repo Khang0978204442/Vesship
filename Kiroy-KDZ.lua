@@ -4983,7 +4983,7 @@ spawn(function()
                         if (v1047.Name == "Chief Warden") then
                             if (v1047:FindFirstChild("Humanoid") and v1047:FindFirstChild("HumanoidRootPart") and (v1047.Humanoid.Health > 0)) then
                                 repeat
-                                    task.wait(_G.Fast_Delay);
+                                    task.wait(_G.Fast_Delay)=0.5;
                                     AutoHaki();
                                     EquipTool(SelectWeapon);
                                     v1047.HumanoidRootPart.CanCollide = false;
@@ -5024,7 +5024,7 @@ if Sea3 then
                         for v1462, v1463 in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
                             if string.find(v1463.Name, "Soul Reaper") then
                                 repeat
-                                    wait(_G.Fast_Delay);
+                                    wait(_G.Fast_Delay)=0.5;
                                     AttackNoCoolDown();
                                     AutoHaki();
                                     EquipTool(SelectWeapon);
