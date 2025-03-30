@@ -4983,7 +4983,7 @@ spawn(function()
                         if (v1047.Name == "Chief Warden") then
                             if (v1047:FindFirstChild("Humanoid") and v1047:FindFirstChild("HumanoidRootPart") and (v1047.Humanoid.Health > 0)) then
                                 repeat
-                                    task.wait(_G.Fast_Delay)=0.5;
+                                    task.wait(_G.Fast_Delay);
                                     AutoHaki();
                                     EquipTool(SelectWeapon);
                                     v1047.HumanoidRootPart.CanCollide = false;
